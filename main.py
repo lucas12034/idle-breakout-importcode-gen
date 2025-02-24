@@ -32,20 +32,20 @@ def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 2, 
 print("{}".format(crayons.blue('\nWelcome to the interactive \nIdle Breakout import code generator by 3kh0!\n\nPlease enter numbers for the questions.\n')))
 time.sleep(0.2)
 print("{}".format(crayons.cyan('------------------------------------------\nWhat level you want to be on?')))
-level = input()
+level = input(1000)
 
 print("{}".format(crayons.green('------------------------------------------\nHow much money do you want?')))
-money = input()
+money = input(10000000000000000000000000000000)
 
 print("{}".format(crayons.yellow('------------------------------------------\nHow much gold do you want?')))
 
-gold = input()
+gold = input(10000000000000000000000000000000)
 
 print("{}".format(crayons.black('------------------------------------------\nHow many Black Boxes do you want?')))
-bb = input()
+bb = input(10000000000000000000000000000000)
 
 print("------------------------------------------\nHow many skillpoints do you want?")
-sp = input()
+sp = input(10000000000000000000000000000000)
 
 encode = f"{level},{money},{gold},3,0,0,0,0,0,0,0,1,1,0,43595.78,999999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,{bb},0,0,0,1,{sp},1,0,0"
 finalCode = encode.encode("UTF-8")
